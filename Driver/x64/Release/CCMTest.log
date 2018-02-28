@@ -1,0 +1,166 @@
+﻿生成启动时间为 2018/2/21 1:11:02。
+     1>项目“E:\vctarget\CCM-AEAD-Test -amp-mate-opencl\Crypto++ CCM-AEAD Test\Driver\CCMTest.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“x64\Release\Driver.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“x64\Release\Driver.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\CryptoPP\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MT /GS /Gy /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /openmp- /Yc"stdafx.h" /Fp"x64\Release\Driver.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\CryptoPP\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MT /GS /Gy /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /openmp- /Yu"stdafx.h" /Fp"x64\Release\Driver.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt Driver.cpp
+         Driver.cpp
+     1>c:\program files\cryptopp\include\json\writer.h(159): warning C4996: 'Json::Writer': Use StreamWriter instead
+                 c:\program files\cryptopp\include\json\writer.h(143) : 参见“Json::Writer”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(186): warning C4996: 'Json::Writer::~Writer': Use StreamWriter instead
+                 c:\program files\cryptopp\include\json\writer.h(145) : 参见“Json::Writer::~Writer”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(186): warning C4996: 'Json::Writer::write': Use StreamWriter instead
+                 c:\program files\cryptopp\include\json\writer.h(147) : 参见“Json::Writer::write”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(163): warning C4996: 'Json::Writer::~Writer': Use StreamWriter instead
+                 c:\program files\cryptopp\include\json\writer.h(145) : 参见“Json::Writer::~Writer”的声明
+                 c:\program files\cryptopp\include\json\writer.h(145) : 参见“Json::Writer::~Writer”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(163): warning C4996: 'Json::FastWriter::document_': Use StreamWriterBuilder instead
+                 c:\program files\cryptopp\include\json\writer.h(182) : 参见“Json::FastWriter::document_”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(186): warning C4996: 'Json::FastWriter::~FastWriter': Use StreamWriterBuilder instead
+                 c:\program files\cryptopp\include\json\writer.h(163) : 参见“Json::FastWriter::~FastWriter”的声明
+                 此诊断出现在编译器生成的函数“void *Json::FastWriter::__delDtor(unsigned int)”中
+                 c:\program files\cryptopp\include\json\writer.h(163) : 参见“Json::FastWriter::~FastWriter”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(212): warning C4996: 'Json::Writer': Use StreamWriter instead
+                 c:\program files\cryptopp\include\json\writer.h(143) : 参见“Json::Writer”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(246): warning C4996: 'Json::Writer::~Writer': Use StreamWriter instead
+                 c:\program files\cryptopp\include\json\writer.h(145) : 参见“Json::Writer::~Writer”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(246): warning C4996: 'Json::Writer::write': Use StreamWriter instead
+                 c:\program files\cryptopp\include\json\writer.h(147) : 参见“Json::Writer::write”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(215): warning C4996: 'Json::StyledWriter::ChildValues': Use StreamWriterBuilder instead
+                 c:\program files\cryptopp\include\json\writer.h(238) : 参见“Json::StyledWriter::ChildValues”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(215): warning C4996: 'Json::Writer::~Writer': Use StreamWriter instead
+                 c:\program files\cryptopp\include\json\writer.h(145) : 参见“Json::Writer::~Writer”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(215): warning C4996: 'Json::StyledWriter::childValues_': Use StreamWriterBuilder instead
+                 c:\program files\cryptopp\include\json\writer.h(240) : 参见“Json::StyledWriter::childValues_”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(215): warning C4996: 'Json::StyledWriter::document_': Use StreamWriterBuilder instead
+                 c:\program files\cryptopp\include\json\writer.h(241) : 参见“Json::StyledWriter::document_”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(215): warning C4996: 'Json::StyledWriter::indentString_': Use StreamWriterBuilder instead
+                 c:\program files\cryptopp\include\json\writer.h(242) : 参见“Json::StyledWriter::indentString_”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(246): warning C4996: 'Json::StyledWriter::~StyledWriter': Use StreamWriterBuilder instead
+                 c:\program files\cryptopp\include\json\writer.h(215) : 参见“Json::StyledWriter::~StyledWriter”的声明
+                 此诊断出现在编译器生成的函数“void *Json::StyledWriter::__delDtor(unsigned int)”中
+                 c:\program files\cryptopp\include\json\writer.h(215) : 参见“Json::StyledWriter::~StyledWriter”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(279): warning C4996: 'Json::StyledStreamWriter::ChildValues': Use StreamWriterBuilder instead
+                 c:\program files\cryptopp\include\json\writer.h(304) : 参见“Json::StyledStreamWriter::ChildValues”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(279): warning C4996: 'Json::StyledStreamWriter::childValues_': Use StreamWriterBuilder instead
+                 c:\program files\cryptopp\include\json\writer.h(306) : 参见“Json::StyledStreamWriter::childValues_”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(279): warning C4996: 'Json::StyledStreamWriter::indentString_': Use StreamWriterBuilder instead
+                 c:\program files\cryptopp\include\json\writer.h(308) : 参见“Json::StyledStreamWriter::indentString_”的声明
+     1>c:\program files\cryptopp\include\json\writer.h(279): warning C4996: 'Json::StyledStreamWriter::indentation_': Use StreamWriterBuilder instead
+                 c:\program files\cryptopp\include\json\writer.h(310) : 参见“Json::StyledStreamWriter::indentation_”的声明
+     1>Driver.cpp(37): warning C4005: “MAX_PATH”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\shared\minwindef.h(60) : 参见“MAX_PATH”的前一个定义
+     1>Driver.cpp(449): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>Driver.cpp(450): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>Driver.cpp(463): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>Driver.cpp(464): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>Driver.cpp(465): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>Driver.cpp(493): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>Driver.cpp(494): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 参见“strcat”的声明
+     1>Driver.cpp(495): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : 参见“fopen”的声明
+     1>Driver.cpp(573): warning C4996: 'Json::Reader': Use CharReader and CharReaderBuilder instead
+                 c:\program files\cryptopp\include\json\reader.h(35) : 参见“Json::Reader”的声明
+     1>Driver.cpp(573): warning C4996: 'Json::Reader::Reader': Use CharReader and CharReaderBuilder instead
+                 c:\program files\cryptopp\include\json\reader.h(55) : 参见“Json::Reader::Reader”的声明
+     1>Driver.cpp(573): warning C4996: 'Json::Reader::Char': Use CharReader and CharReaderBuilder instead
+                 c:\program files\cryptopp\include\json\reader.h(37) : 参见“Json::Reader::Char”的声明
+     1>Driver.cpp(573): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead
+                 c:\program files\cryptopp\include\json\reader.h(38) : 参见“Json::Reader::Location”的声明
+     1>Driver.cpp(573): warning C4996: 'Json::Reader::Nodes': Use CharReader and CharReaderBuilder instead
+                 c:\program files\cryptopp\include\json\reader.h(236) : 参见“Json::Reader::Nodes”的声明
+     1>Driver.cpp(573): warning C4996: 'Json::Reader::Errors': Use CharReader and CharReaderBuilder instead
+                 c:\program files\cryptopp\include\json\reader.h(192) : 参见“Json::Reader::Errors”的声明
+     1>Driver.cpp(573): warning C4996: 'Json::Reader::~Reader': Use CharReader and CharReaderBuilder instead
+                 c:\program files\cryptopp\include\json\reader.h(248) : 编译器已在此处生成“Json::Reader::~Reader”
+     1>Driver.cpp(577): warning C4996: 'Json::Reader::parse': Use CharReader and CharReaderBuilder instead
+                 c:\program files\cryptopp\include\json\reader.h(77) : 参见“Json::Reader::parse”的声明
+     1>Driver.cpp(592): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(626): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(639): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>Driver.cpp(647): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+     1>Driver.cpp(688): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(717): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(200) : 参见“strtok”的声明
+     1>Driver.cpp(718): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(200) : 参见“strtok”的声明
+     1>Driver.cpp(719): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(200) : 参见“strtok”的声明
+     1>Driver.cpp(725): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(741): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>Driver.cpp(772): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(777): warning C4267: “/=”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(791): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h(909) : 参见“itoa”的声明
+     1>Driver.cpp(793): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(799): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(829): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(834): warning C4267: “/=”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(874): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(879): warning C4267: “/=”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(920): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(925): warning C4267: “/=”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(963): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(968): warning C4267: “/=”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(1006): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(1011): warning C4267: “/=”: 从“size_t”转换到“int”，可能丢失数据
+     1>Driver.cpp(625): warning C4101: “str”: 未引用的局部变量
+     1>Driver.cpp(1235): warning C4996: 'Json::Reader::nodes_': Use CharReader and CharReaderBuilder instead
+                 c:\program files\cryptopp\include\json\reader.h(237) : 参见“Json::Reader::nodes_”的声明
+                 此诊断出现在编译器生成的函数“Json::Reader::~Reader(void) throw()”中
+     1>Driver.cpp(1235): warning C4996: 'Json::Reader::Nodes': Use CharReader and CharReaderBuilder instead
+                 c:\program files\cryptopp\include\json\reader.h(236) : 参见“Json::Reader::Nodes”的声明
+                 此诊断出现在编译器生成的函数“Json::Reader::~Reader(void) throw()”中
+     1>Driver.cpp(1235): warning C4996: 'Json::Reader::errors_': Use CharReader and CharReaderBuilder instead
+                 c:\program files\cryptopp\include\json\reader.h(238) : 参见“Json::Reader::errors_”的声明
+                 此诊断出现在编译器生成的函数“Json::Reader::~Reader(void) throw()”中
+     1>Driver.cpp(1235): warning C4996: 'Json::Reader::document_': Use CharReader and CharReaderBuilder instead
+                 c:\program files\cryptopp\include\json\reader.h(239) : 参见“Json::Reader::document_”的声明
+                 此诊断出现在编译器生成的函数“Json::Reader::~Reader(void) throw()”中
+     1>Driver.cpp(1235): warning C4996: 'Json::Reader::commentsBefore_': Use CharReader and CharReaderBuilder instead
+                 c:\program files\cryptopp\include\json\reader.h(245) : 参见“Json::Reader::commentsBefore_”的声明
+                 此诊断出现在编译器生成的函数“Json::Reader::~Reader(void) throw()”中
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\deque(1863): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead
+                 c:\program files\cryptopp\include\json\reader.h(38) : 参见“Json::Reader::Location”的声明
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\deque(1857): 编译类 模板 成员函数“void std::deque<_Ty>::_Tidy(void)”时
+                 with
+                 [
+                     _Ty=Json::Reader::ErrorInfo
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\deque(1222): 参见对正在编译的函数 模板 实例化“void std::deque<_Ty>::_Tidy(void)”的引用
+                 with
+                 [
+                     _Ty=Json::Reader::ErrorInfo
+                 ]
+                 c:\program files\cryptopp\include\json\reader.h(238): 参见对正在编译的类 模板 实例化“std::deque<_Ty>”的引用
+                 with
+                 [
+                     _Ty=Json::Reader::ErrorInfo
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\vctarget\CCM-AEAD-Test -amp-mate-opencl\Crypto++ CCM-AEAD Test\x64\Release\Driver.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\CryptoPP\lib\X64\Release" cryptlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\vctarget\CCM-AEAD-Test -amp-mate-opencl\Crypto++ CCM-AEAD Test\x64\Release\Driver.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\vctarget\CCM-AEAD-Test -amp-mate-opencl\Crypto++ CCM-AEAD Test\x64\Release\Driver.lib" /MACHINE:X64 x64\Release\Driver.obj
+         x64\Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         CCMTest.vcxproj -> E:\vctarget\CCM-AEAD-Test -amp-mate-opencl\Crypto++ CCM-AEAD Test\x64\Release\Driver.exe
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\Driver.unsuccessfulbuild”。
+         正在对“x64\Release\Driver.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\vctarget\CCM-AEAD-Test -amp-mate-opencl\Crypto++ CCM-AEAD Test\Driver\CCMTest.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:16.49
